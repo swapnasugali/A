@@ -1,0 +1,23 @@
+h2{
+    color:chartreuse;
+}
+
+/* descendant - any child inside */
+div h1 {
+    color:olive;
+}
+
+/* immediate child elements */
+div > h1{ 
+    color:cornflowerblue;
+ } 
+
+/* next siblibg onlyl */
+div + h1{
+    color:coral;
+}
+
+/* all sibling elements */
+div ~ h1, h4, h3{
+    color:red;
+}

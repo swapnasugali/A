@@ -1,0 +1,108 @@
+body{
+
+    font-family:Arial;
+    padding:20px;
+
+}
+
+
+/* Common box style */
+
+div{
+
+    border:2px solid black;
+    padding:20px;
+    background-color:lightblue;
+
+}
+
+
+
+/* 1. Normal Flow */
+
+.normal div{
+
+    margin:10px;
+
+}
+
+
+
+/* 2. Flexbox */
+
+.flex-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+}
+
+
+.flex-container div{
+
+    background-color:lightgreen;
+
+}
+
+
+
+/* 3. Grid */
+
+.grid-container{
+
+    display:grid;
+
+    grid-template-columns:200px 200px;
+
+    gap:20px;
+
+}
+
+
+.grid-container div{
+
+    background-color:orange;
+
+}
+
+
+
+/* 4. Position */
+
+
+.position-box{
+
+    height:200px;
+
+    position:relative;
+
+    background-color:pink;
+
+}
+
+
+.child{
+
+    position:absolute;
+
+    top:20px;
+
+    right:20px;
+
+}
+
+
+
+/* 5. Float */
+
+
+img{
+
+    float:left;
+
+    margin-right:20px;
+
+}

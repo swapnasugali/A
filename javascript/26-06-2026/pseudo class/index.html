@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+
+/* when we moves mouse on button  */
+        button:hover{
+            background-color:blue;
+            color:pink;
+        }
+
+/* when we click the button */
+        button:active{
+            background-color:brown
+        }
+/* cursour in input */
+        button:focus{
+            color: chartreuse;
+        }
+
+/* visited link */
+        a:visited{
+            color:gold
+        }
+
+/* unvisited link */
+        a:link{
+            color:lime
+        }
+     
+        li:first-child{
+            color:rgb(121, 6, 228)
+        }
+
+        li:last-child{
+            color:darksalmon
+        }
+
+        li:nth-child(5){
+            color:darkorange
+        }
+
+/* first of paragraph type  */
+        p:first-of-type{
+            color:darkmagenta
+        }
+        
+        p:last-of-type{
+            color:cornflowerblue
+        }
+
+/* Select everything except the given selector */
+        li:not(.red){
+            color:deepskyblue
+        }
+
+/* Checked checkbox/radio button */
+        input:checked{
+            accent-color:chocolate;
+        }
+
+/*root(html) element - all html page */
+        :root{
+            background-color:pink;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://youtu.be/ewv1nx4o6S4?si=pF1VA-S9BcPPm28O" style="color:crimson">click</a><br><br>
+    <a href="https://youtu.be/7zcXPCt8Ck0?si=kiO2AgJzegXyAxrL">click</a><br><br>
+    <a href="https://youtu.be/kwIRIG9ZF_c?si=Jv1vzBtD0dbQP9CQ">click</a><br><br>
+    <a href="https://youtu.be/N1zIfJuxAWM?si=IswWPYOeSxabG-PL" style ="color:darkblue">click</a><br><br>
+    <h1>hello how are you</h1>
+    <h2>Good morning</h2>
+    <p>good afternoon</p>
+    <p>good evening</p>
+    <p>Hello</p>
+    <p>hi</p>
+
+     <label>Gender</label><br>
+        <input type="radio" name="gender" required>Female
+        <input type="radio" name="gender" required>Male
+        <input type="radio" name="gender" required>Others
+        <br><br>
+
+    <ul>
+        <li>mango</li>
+        <li>guava</li>
+        <li style="color:chocolate">grapes</li>
+        <li style="color:chartreuse">banana</li>
+        <li class ="red" >strawberry</li>
+        <li>pine apple</li>
+        <li>apple</li>
+    </ul>
+
+    <button>click me</button>
+</body>
+</html>
