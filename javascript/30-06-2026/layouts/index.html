@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            box-sizing: border-box;
+        }
+        #mailbox{
+            
+   
+            width: 500px;
+            border: 5px solid black;
+            flex-wrap:wrap-reverse;
+            gap: 60px;
+            display:flex; 
+            /* flex-direction:column; */
+             /* flex-direction: column-reverse; */
+            /* flex-direction: row; */  
+             /* flex-direction: row-reverse; */
+             align-items:self-start;
+             /* justify-content: center; */
+    
+        }
+
+        #mailbox1{
+
+            width: 700px;
+            border: 2px solid black;
+            gap: 20px;
+            display:flex;
+            /* flex-direction:column; */
+             /* flex-direction: column-reverse; */
+            /* flex-direction: row; */  
+             /* flex-direction: row-reverse; */
+            /* align-items: center; */
+             align-items:self-start;
+            /* justify-content:end;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            flex-wrap:initial; */
+
+        }
+    </style>
+</head>
+<body>
+    <div id="mailbox">
+    <button class="box">box1</button>
+    <button class="box">box2</button>
+    <button class="box">box3</button>
+    <button class="box">box4</button>
+    <button class="box">box5</button>
+    <button class="box">box6</button>
+    <button class="box">box7</button>
+    <button class="box">box8</button>
+    <button class="box">box9</button>
+    <p  style="background-color: aqua;">four</p>
+    <h1>five</h1>
+    </div>
+
+    <div id="mailbox1">
+    <button class="box">box1</button>
+    <button class="box">box2</button>
+    <button class="box">box3</button>
+    <button class="box">box1</button>
+    <button class="box">box2</button>
+    <button class="box">box3</button>
+    <button class="box">box1</button>
+    <button class="box">box2</button>
+    <button class="box">box3</button>
+    <p  style="background-color:blueviolet;">four</p>
+    <h1>five</h1>
+    </div>
+    <div style="background-color: cadetblue; border: 3px solid pink; box-sizing: border-box; display: flex;">
+    <button class="box">box1</button>
+    <button class="box">box2</button>
+    <button class="box">box3</button>
+    <div style="flex-direction: column; display:flex ;">
+    <button class="box">box1</button>
+    <button class="box">box2</button>
+    <button class="box">box3</button>
+    </div>
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+<!-- 
+direction        main axis              cross axis
+row              left -> right            top -> bottom
+column           top -> bottom            left -> right      -->
