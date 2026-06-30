@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{ 
+            background-color: aquamarine;
+            padding:2px;
+            margin:5px;
+            border:2px solid black;
+        }
+        #one{
+            padding: 10px;
+            border: 2px;
+            display: grid;
+            grid-template-columns: 100px 100px 200px;
+            grid-template-columns: 1fr 2fr;
+
+            /* grid-template-rows: 100px 200px 150px; */
+        }
+        #box1{
+            /* grid-column-start: 1;
+            grid-column-end: 3; */
+            grid-column: 1/4;
+        }
+                #box3{
+            grid-column-start: 1;
+            grid-column-end: 6;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="one" style="background-color:cadetblue;height:500px;width:400px;">
+        <div class="box" id="box1" >
+            box1
+            <!-- <div>
+                <div>A</div>
+                <div>B</div>
+                <div>C</div>
+                <div>
+                    <div>C1</div>
+                    <div>C2</div>
+                </div>
+                <div>D</div>
+            </div> -->
+        </div>
+        <div class="box" id="box2">
+            box2
+        </div>
+        <div class="box" id="box3">
+            box3
+        </div>
+        <div class="box" id="box4">
+            box4
+        </div>
+        <div class="box" id="box5">
+            box5
+        </div>
+        <div class="box" id="box5">
+            box5
+        </div>
+        <div class="box" id="box5">
+            box5
+        </div>
+        <div class="box" id="box5">
+            box5
+        </div>
+    </div>
+</body>
+</html>
+

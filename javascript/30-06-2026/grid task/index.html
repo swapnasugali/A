@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background-color: blueviolet;
+            padding:10px;
+            border: 2px solid black;
+            
+        }
+        #one{
+            background-color: crimson;
+            height:300px;
+            width: 30%;
+            padding:2px;
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-row-gap: 5px;
+            grid-column-gap: 5px;
+        }
+        #two{
+            grid-column: 1/5;
+        }
+        #three{
+            grid-column: 1/2;
+        }
+        #four{
+            grid-column: 2/5;
+        }
+        #five{
+            grid-column: 1/5;   
+        } 
+    </style>
+</head>
+<body>
+    <div id="one">
+        <div class="box" id="two">Header</div>
+        <div class="box" id="three">Sidebar</div>
+        <div class="box" id="four">Content</div>
+        <div class="box" id="five">Footer</div>
+    </div>
+</body>
+</html>

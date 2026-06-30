@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div{
+            background-color: darkgrey;
+            /* flex-direction: row; */
+            width: 250px;
+            border: 2px solid white;
+        }
+
+        #one{
+            background-color: darkgrey;
+            width: 250px;
+            height: 120px;
+            display:flex;
+            border: 2px solid white;
+        }
+        .two{
+            width: 250px;
+            text-align: center;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+
+        #five{
+            background-color: darkgray;
+            width: 250px;
+            height: 30px;
+            border: 2px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+        }
+    </style>
+</head>
+<body>
+    <div id="div">
+        <div class ="four" style="border: 2px solid white; padding:15px;height:30px;width: 250px;">Logo</div>
+        <div class="three" style="border: 2px solid white;padding:8px;height:20px;text-align: center;">Navigation</div>
+        <div class ="two" style="border: 2px solid white; height: 60px;">Header/Banner</div>
+    </div>
+
+    <div id ="one">
+        <div style="   width:30%;background-color:darkgrey;border:2px solid white; display:flex;align-items:center;justify-content:center;">Sidebar</div>
+        <div style="   width:70%;background-color:darkgrey;border:2px solid white;display:flex;align-items:center;justify-content:center;">Body Area</div>
+    </div>
+    <div id ="five" >Footer</div>
+</body>
+</html>
+
