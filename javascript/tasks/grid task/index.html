@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #id{
+            background-color: white;
+            width:50%;
+            height:400px;
+            padding:2px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-column-gap: 10px;
+            grid-row-gap:2px ;
+        
+        }
+       
+        .one{
+            background-color:cadetblue;
+            padding:2px;
+            border: 5px solid white;
+        }
+        #two{
+            grid-column: 1/3;
+        }
+        #three{
+            grid-column: 3/7;
+            
+        }
+        #four{
+            grid-column: 1/7;
+            height: 50px;
+        }
+        #five{
+            grid-column: 1/7;
+             height: 50px;
+
+        }
+        #six{
+            grid-column: 1/3;
+            height:150px;
+        }
+        #seven{
+            grid-column: 3/5;
+            height:150px;
+        
+        }
+       
+        #eight{
+            grid-column: 5/7;
+            height: 150px ;
+        }
+        #nine{
+            grid-column: 1/7;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="id">
+       
+        <div class="one" id="two">Logo</div>
+        <nav class="one" id="three">Navigation</nav>
+        <div class="one" id="four">Header/Banner</div>
+        <div class="one" id="five">Intro Text Area</div>
+        <div class="one" id="six">Box1</div>
+        <div class="one" id="seven">Box 2</div>
+        <div class="one" id="eight">Box3</div>
+        <div class="one" id="nine">Footer</div>
+    </div>
+</body>
+</html>
