@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     #one{
+     
+    background-color:cadetblue;
+        width:80%;
+        height:360px;
+        margin:auto;
+     }
+
+    .box{
+            border:5px solid white;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            padding:5px;
+            box-sizing:border-box;
+    }
+    #two{
+        display:flex;
+    height:60px;
+    gap:10px
+
+    }
+    #three{
+         display:flex;
+    height:190px;
+
+
+    }
+    #three .box{
+        flex:1;
+    }
+    </style>
+</head>
+<body>
+    <div id ="one">
+        <div id="two">
+            <div  style="flex:1">Logo</div>
+            <div style="flex:2">Navigator</div>
+        </div>
+        <div class ="box" style=" height:10%">Header/Banner</div>
+        <div class ="box" style=" height:10%;">Intro Text Area</div>
+        <div id="three">
+            <div class ="box" >Box 1</div>
+            <div class ="box" >Box 2</div>
+            <div class ="box" >Box 3</div>
+        </div>
+        <div class ="box" style="text-align: center;">Footer</div>
+    </div>
+
+</body>
+</html>
+
+
